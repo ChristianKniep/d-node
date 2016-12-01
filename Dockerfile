@@ -1,5 +1,4 @@
-### QNIBTerminal debian image
-FROM qnib/d-syslog
+FROM qnib/d-consul
 
 RUN apt-get update \
  && apt-get install -y apt-transport-https lsb-release
